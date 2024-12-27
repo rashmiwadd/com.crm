@@ -11,8 +11,7 @@ public class OrganizationPage {
 		this.driver=driver;
 		PageFactory.initElements(driver,this);	
 	}
-	
-	
+		
 	@FindBy(name="search_text") 
 	private WebElement searchedit;
 	

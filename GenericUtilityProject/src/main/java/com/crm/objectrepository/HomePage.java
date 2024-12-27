@@ -22,6 +22,9 @@ public class HomePage {
 	@FindBy(linkText="Contacts") 
     private WebElement contactlink;
 	
+	@FindBy(linkText="Products") 
+    private WebElement prodlink;
+	
 	@FindBy(linkText="Campaigns") 
     private WebElement Campaignlink;
 	
@@ -35,8 +38,16 @@ public class HomePage {
     private WebElement signOut;
 	
 		
+	
+	
 		
-	 public WebElement getAdminimage() {
+	 public WebElement getProdlink() {
+		return prodlink;
+	}
+
+
+
+	public WebElement getAdminimage() {
 		return adminimage;
 	}
 
