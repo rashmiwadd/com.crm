@@ -24,7 +24,10 @@ public class ProductPage {
 	}
 	
 	@FindBy(name="submit") 
-	private WebElement searchbtn;
-
+	private WebElement searchtbtn;
+	
+	@FindBy(name="submit") 
+	private WebElement search;
+	
 }
 
