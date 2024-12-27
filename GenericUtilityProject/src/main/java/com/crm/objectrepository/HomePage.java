@@ -37,11 +37,8 @@ public class HomePage {
 	@FindBy(linkText="Sign Out") 
     private WebElement signOut;
 	
-		
-	
-	
-		
-	 public WebElement getProdlink() {
+			
+	public WebElement getProdlink() {
 		return prodlink;
 	}
 
