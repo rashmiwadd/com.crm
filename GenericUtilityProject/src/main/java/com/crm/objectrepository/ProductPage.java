@@ -23,11 +23,21 @@ public class ProductPage {
 		return createproductbtn;
 	}
 	
+
 	@FindBy(name="submit") 
 	private WebElement searchtbtn;
 	
 	@FindBy(name="submit") 
 	private WebElement search;
 	
+
+	@FindBy(name="search_text") 
+	private WebElement searchedt;
+	
+	@FindBy(name="search_field") 
+	private WebElement searchfielddt;
+	
+
+
 }
 
