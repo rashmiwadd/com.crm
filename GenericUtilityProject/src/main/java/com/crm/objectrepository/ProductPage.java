@@ -22,6 +22,9 @@ public class ProductPage {
 	public WebElement getCreateproductbtn() {
 		return createproductbtn;
 	}
+	
+	@FindBy(name="search_text") 
+	private WebElement searchedt;
 
 }
 
